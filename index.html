@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>as aventuras do gato</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>la casa del gato</h1>
+    </header>
+    <div class="habitaciones">
+        <div class="habitacion">
+            <h2>Sala</h2>
+            <div id="juguete-sala" class="juguete" style="display: none;">🧶</div>
+        </div>
+        <div class="habitacion">
+            <h2>Cocina</h2>
+            <div id="comida" style="display: block;">🍽️</div> <!-- La comida debe estar visible al inicio -->
+        </div>
+        <div class="habitacion">
+            <h2>Dormitorio</h2>
+            <div id="juguete-dormitorio" class="juguete" style="display: none;">🐭</div>
+        </div>
+        <div class="habitacion">
+            <h2>Jardín</h2>
+            <div id="juguete-jardin" class="juguete" style="display: none;">🐾</div>
+        </div>
+    </div>
+    <div id="gato">🐱</div>
+    <div id="cama" style="display: none; position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); width: 100px; height: 50px; background-color: #FFDDDD; border: 2px solid #B22222; border-radius: 10px; text-align: center; line-height: 50px;">
+        Cama
+    </div>
+</body>
+</html>

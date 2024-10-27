@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0F7FA; /* Fondo suave */
+    color: #f00404; /* Color del texto */
+    text-align: center;
+    position: relative; /* Añadido para posicionamiento */
+}
+
+header {
+    background-color: #e2ea05; /* Color de fondo del encabezado */
+    color: white; /* Color del texto en el encabezado */
+    padding: 20px;
+}
+
+.habitaciones {
+    display: flex; /* Alinea las habitaciones horizontalmente */
+    justify-content: space-around; /* Espacia uniformemente las habitaciones */
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.habitacion {
+    border: 2px solid #e6b206d2d2d2d2; /* Borde de la habitación */
+    background-color: #B2DFDB; /* Color de fondo de la habitación */
+    padding: 10px; /* Espaciado interno */
+    width: 150px; /* Ancho de cada habitación */
+    height: 150px; /* Alto de cada habitación */
+    position: relative; /* Posicionamiento relativo para elementos internos */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.juguete {
+    position: absolute; /* Para poder moverla dentro de la habitación */
+    font-size: 2rem; /* Tamaño del juguete */
+    transition: opacity 0.5s; /* Transición para aparecer/desaparecer */
+}
+
+/* Estilos para el gato */
+#gato {
+    position: absolute; /* Para que pueda moverse libremente */
+    font-size: 3rem;
+    transition: transform 0.3s; /* Transición suave para el movimiento */
+}
+#cama {
+    background-color: #FFDDDD;
+    border: 2px solid #B22222;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px; /* Centra el texto verticalmente */
+}
